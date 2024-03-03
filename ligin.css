@@ -1,0 +1,80 @@
+.background {
+    width: 100%;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    height: 750px;
+
+}
+
+.both {
+    display: flex;
+    flex-direction: row;
+}
+
+.sentance {
+    color: black;
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    margin-top: 15%;
+    padding-left: 5%;
+    background: linear-gradient(114.2deg, rgb(121, 194, 243) 22.6%, rgba(255, 180, 239, 0.153) 67.7%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div-form {
+    width: 500px;
+    height: 500px;
+    /* z-index: ; */
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 1%;
+
+}
+
+.div-form img {
+    width: 650px;
+    height: 650px;
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: last baseline;
+    padding-right: 3%;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 60%;
+    background: linear-gradient(114.2deg, rgba(255, 255, 255, 0.531) 22.6%, rgba(133, 188, 255, 0.663) 67.7%);
+
+    border-radius: 15%;
+
+}
+
+.form-main label {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+
+.form-main input {
+    color: rgb(31, 30, 30);
+    font-size: 15px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}

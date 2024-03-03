@@ -1,0 +1,507 @@
+.d-flex {
+    gap: 10px;
+}
+
+.d-flex button {
+    border: none;
+    color: rgb(249, 238, 238);
+
+}
+
+.d-flex input {
+    border-radius: 150px;
+    background-color: rgba(255, 255, 255, 0.579);
+    color: rgb(249, 249, 249);
+    height: 30px;
+    margin-top: 1%;
+}
+
+.navbar {
+    background-color: rgb(2, 49, 62);
+    box-shadow: none !important;
+    /* Remove any shadow */
+    backdrop-filter: blur(30px);
+    position: fixed;
+    z-index: 5;
+    /* Optional: Apply a blur effect to content behind the navbar */
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: 50px;
+}
+
+.fg {
+    border: 1px solid black;
+
+}
+
+.fa-user {}
+
+/* navbar end..................................... */
+
+.navbar-collapse {
+    color: white;
+}
+
+/* footer css.............................................. */
+.footer {
+    margin-top: auto;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(2, 49, 62);    padding-top: 2%;
+    gap: 50px;
+    padding-left: 20%;
+}
+
+.form-f h1 {
+    color: white;
+    font-size: x-large;
+}
+
+.form-f a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.f2-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.f2-ul a {
+    font-size: x-large;
+    margin-left: -120%;
+}
+
+
+.form-f ul {
+    list-style-type: none;
+}
+
+/* footrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+
+/* footerend.................................................................................. */
+
+
+.head-image img {
+    max-width: 100%;
+    height: auto;
+    /* border: 2px solid black; */
+    /* margin-left: 450px; */
+
+}
+
+.head-h1 {
+    position: absolute;
+    background: linear-gradient(114.2deg, rgb(12, 12, 12) 22.6%, rgba(255, 180, 239, 0.153) 67.7%);
+    width: 100%;
+    height: 422px;
+    font-size: 200px;
+    text-align: center;
+    text-transform: lowercase;
+    color: white;
+
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.down-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.up-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.both {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-image img {
+    width: 350px;
+    height: 450px;
+}
+
+.colum {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.card-text-3 {
+    font-size: 10px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.card {
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 200px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: linear-gradient(50.6deg, rgba(255, 255, 255, 0.376) 39.8%, rgb(243, 241, 241) 30.5%);
+}
+
+.card-body {
+    border-top: 1px solid orangered;
+    padding-left: 20px;
+
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+.card-text-2 {
+    color: red;
+    font-size: large;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
+.btn-outline-primary {
+    margin-left: 27%;
+
+}
+
+.img2 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer-h1 {
+    position: absolute;
+
+    width: 100%;
+    height: 390px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: lowercase;
+    color: white;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.btn-primary2 {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 45%;
+    font-size: larger;
+    background-color: rgb(255, 0, 204);
+    width: 100px;
+    color: aliceblue;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.buy-1 a {
+    position: absolute;
+    background-color: orangered;
+    border: none;
+    margin-top: -30%;
+    margin-left: 20px;
+}
+.about{
+    align-items: center;
+    text-align: left;
+    color: black;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+.about img{
+    width: 300px;
+    height: 200px;
+}
+  .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      /* Adjust the maximum width as needed */
+  }
+
+  video.promo1 {
+      width: 167%;
+      height: 370px;
+      /* Set the video height to 300px for a fixed height */
+      object-fit: cover;
+  }
+@media screen and (max-width: 480px) {
+
+    /* Adjust the navbar styles for smaller screens */
+
+    .navbar {
+        background-color: rgba(97, 153, 216, 0.748);
+    }
+
+    .navbar-brand img {
+        width: 40px;
+        height: 35px;
+
+    }
+
+    .navbar-toggler-icon {
+        color: rgb(4, 4, 4);
+        /* Color of the hamburger menu icon */
+    }
+
+    /* Center-align the mobile-friendly navigation menu */
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    /* Adjust the font size and color for navigation links on smaller screens */
+    .navbar-nav a {
+        font-size: 26px;
+        /* Adjust the font size as needed */
+        color: white;
+        /* Font color is set to white */
+    }
+
+
+    /* Adjust the footer styles for smaller screens */
+    .footer-main {
+        width: 1200px;
+        flex-direction: column;
+        /* Make footer items stack vertically */
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .form-f {
+        flex-grow: 1;
+        /* Allow footer boxes to expand equally */
+        text-align: center;
+    }
+
+    .form-f h1 {
+        font-size: 25px;
+        /* Adjust the font size for footer headings */
+    }
+
+    .form-f a {
+        font-size: 1px;
+        /* Adjust the font size for footer links */
+    }
+
+    .f2-ul {
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+        /* Add space between social media icons and links */
+    }
+
+    .f2-ul a {
+        font-size: 24px;
+        /* Adjust the font size for social media icons */
+    }
+
+    .form-f ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+
+    /* ..........page media........................................................................... */
+
+
+
+    .head-image img {
+        width: 900px;
+        height: 250px;
+        /* border: 2px solid black; */
+        /* margin-left: 450px; */
+
+    }
+
+    .head-h1 {
+        position: absolute;
+        background: linear-gradient(114.2deg, rgb(0, 0, 0) 30.6%, rgba(255, 180, 239, 0.153) 87.7%);
+        width: 100%;
+        height: 250px;
+        font-size: 200px;
+        text-align: center;
+        text-transform: lowercase;
+        color: white;
+
+
+    }
+
+
+    .row {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .down-div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .up-div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+    }
+
+    .both {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 90%;
+    }
+
+    .left-image img {
+        width: 0%;
+        height: 0%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .left-image h1 {
+        font-size: 0%;
+    }
+
+    .colum {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 10px;
+    }
+
+
+
+    .card {
+
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        width: 300px;
+        height: 450px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background: linear-gradient(50.6deg, rgba(255, 255, 255, 0.376) 39.8%, rgb(243, 241, 241) 30.5%);
+    }
+
+    .card-body {
+        border-top: 1px solid orangered;
+        padding-left: 20px;
+
+    }
+
+    .card img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .card-text-2 {
+        color: red;
+        font-size: large;
+    }
+
+    .btn-bd-primary {
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+        --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+        --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+    }
+
+    .btn-outline-primary {
+        margin-top: 5%;
+        margin-left: 70%;
+        width: 200px;
+
+    }
+
+    .second-div {
+        width: 100%;
+
+    }
+
+    .img2 {
+        width: 700px;
+        margin-top: 10px;
+
+    }
+
+    .footer-h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 290px;
+        font-size: 30px;
+        text-align: center;
+        text-transform: lowercase;
+        color: white;
+        margin-left: 55%;
+    }
+
+    .btn-primary2 {
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 82%;
+        font-size: larger;
+        background-color: rgb(255, 0, 204);
+        width: 100px;
+        color: aliceblue;
+        font-weight: 700;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+
+    .buy-1 a {
+        position: absolute;
+        background-color: orangered;
+        border: none;
+        margin-top: -30%;
+        margin-left: 20px;
+    }
+}

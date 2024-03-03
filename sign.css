@@ -1,0 +1,423 @@
+.d-flex {
+    gap: 10px;
+}
+
+.d-flex button {
+    border: none;
+    color: rgb(249, 238, 238);
+
+}
+
+.d-flex input {
+    border-radius: 150px;
+    background-color: rgba(255, 255, 255, 0.579);
+    color: rgb(249, 249, 249);
+    height: 30px;
+    margin-top: 1%;
+}
+
+.navbar {
+background-color: rgb(2, 49, 62);   
+ 
+    z-index: 8;
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: 50px;
+}
+
+.fg {
+    border: 1px solid black;
+
+}
+
+.fa-user {}
+
+/* navbar end..................................... */
+
+.navbar-collapse {
+    color: white;
+}
+
+/* footer css.............................................. */
+.footer {
+    margin-top: auto;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(2, 49, 62);
+        padding-top: 2%;
+    gap: 50px;
+    padding-left: 20%;
+}
+
+.form-f h1 {
+    color: white;
+    font-size: x-large;
+}
+
+.form-f a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.f2-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.f2-ul a {
+    font-size: x-large;
+    margin-left: -120%;
+}
+
+
+.form-f ul {
+    list-style-type: none;
+}
+
+/* footrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+.form-box {
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.883) 0px 5px 15px;
+    align-items: last baseline;
+    padding-right: 3%;
+    padding-bottom: 30px;
+    position: absolute;
+    background: linear-gradient(114.2deg, rgba(255, 89, 0, 0.512) 22.6%, rgba(2, 49, 62, 0.509) 67.7%);
+        cursor: pointer;
+    border-radius: 10%;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+}
+.form-box:hover{
+        transform: scale(1.48);
+            width: 1000px;
+            height: 450px;
+            margin-left: 10%;
+            border-radius: 1px;
+            padding-right: 50px;
+            z-index: 5;
+            background: linear-gradient(114.2deg, rgba(255, 89, 0, 0.512) 22.6%, rgba(2, 49, 62, 0.509) 67.7%);
+            color: white;
+            margin-top: 5%;
+            }   
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-div p{
+    margin-left: 8%;
+}
+.row-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+
+}
+
+.row-form label {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.theme-logo img{
+    position: absolute;
+    width: 800px;
+    margin-top: -5%;
+}
+.row-form input{
+        font-size: 20px;
+        color: white;
+        width: 200px;
+        height: 30px;
+        border-bottom: 1px solid rgb(164, 164, 164);
+        border-radius: 10px;
+        font-size: small;
+        border-top: none;
+        border-left: none;
+        background-color: rgba(245, 245, 220, 0);
+     }
+.row-form ::placeholder{
+    color: rgb(68, 68, 66);
+}
+
+.left-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-form input{
+    color: rgb(255, 255, 255);
+}
+
+.btn1 {
+    color: white;
+    width: 450px;
+    margin-left: 8%;
+    border-radius: 20px;
+    background-color: rgb(205, 57, 3);
+    box-shadow: rgba(0, 0, 0, 0.431) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px gray solid;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: #ff6a00;
+    color: rgb(228, 212, 212);
+}
+.background-image img{
+    width: 100%;
+    height:auto;
+}
+.already-div{
+    width: 500px;
+    height: auto;
+    /* border: 1px solid gray; */
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 10%;
+    text-align: left;
+    color: rgba(245, 245, 245, 0.771);
+    z-index: 3;
+}
+.shades{
+position: absolute;
+background: linear-gradient(114.2deg, rgba(0, 0, 0, 0.794) 18.6%, rgba(0, 0, 0, 0.194) 67.7%);
+width: 100%;
+height:778px;
+color: white;
+z-index: 0;
+}
+.jbl-logo{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    z-index: 4;
+    margin-top: 15%;
+    margin-left: 45%;
+    filter: opacity(25%);
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Adjust the navbar styles for smaller screens */
+    .navbar {
+        background-color: rgbargb(2, 49, 62);
+    }
+
+    .navbar-brand img {
+        width: 40px;
+        height: 35px;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+        /* Color of the hamburger menu icon */
+    }
+
+    /* Center-align the mobile-friendly navigation menu */
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    /* Adjust the font size and color for navigation links on smaller screens */
+    .navbar-nav a {
+        font-size: 16px;
+        /* Adjust the font size as needed */
+        color: rgb(0, 0, 0);
+        /* Font color is set to white */
+    }
+
+
+    /* Adjust the footer styles for smaller screens */
+    .footer-main {
+        flex-direction: column;
+        /* Make footer items stack vertically */
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .form-f {
+        flex-grow: 1;
+        /* Allow footer boxes to expand equally */
+        text-align: center;
+    }
+
+    .form-f h1 {
+        font-size: 18px;
+        /* Adjust the font size for footer headings */
+    }
+
+    .form-f a {
+        font-size: 14px;
+        /* Adjust the font size for footer links */
+    }
+
+    .f2-ul {
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+        /* Add space between social media icons and links */
+    }
+
+    .f2-ul a {
+        font-size: 24px;
+        /* Adjust the font size for social media icons */
+    }
+        .form-box {
+            width: 500px;
+            height: 400px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50%;
+            margin-left: 10%;
+            position: absolute;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding-right: 2%;
+            background-color: rgba(255, 255, 255, 0.357);
+            border-radius: 3%;
+            display: flex;
+            flex-direction: row;
+            z-index: 2;
+    
+    
+        }
+    
+        .form-div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            
+        }
+    
+        .form-div p {
+            margin-left: 8%;
+        }
+    
+        .row-form {
+            display: flex;
+            flex-direction: row;
+            gap: 10%;
+    
+        }
+    
+        .row-form label {
+            font-size: 15px;
+            color: rgb(18, 18, 18);
+        }
+    
+        .row-form input {
+            font-size: 20px;
+    
+            width: 200px;
+            height: 30px;
+            border-bottom: 1px solid rgb(129, 36, 0);
+            border-radius: 10px;
+            font-size: small;
+            border-top: none;
+            border-left: none;
+            background-color: rgba(245, 245, 220, 0);
+        }
+    
+        .row-form ::placeholder {
+            color: rgb(228, 196, 136);
+        }
+    
+        .left-form {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .right-form {
+            display: flex;
+            flex-direction: column;
+        }
+    
+    
+    
+        .btn1 {
+            color: white;
+            width: 450px;
+            margin-left: 8%;
+            border-radius: 20px;
+            background-color: rgb(205, 57, 3);
+            box-shadow: rgba(0, 0, 0, 0.431) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            text-decoration: none;
+            text-align: center;
+            border: 1px gray solid;
+            cursor: pointer;
+        }
+    
+        .btn1:hover {
+            background-color: #ff6a00;
+            color: white;
+        }
+    
+        .background-image img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .already-div {
+            width: 500px;
+            height: auto;
+            /* border: 1px solid gray; */
+            position: absolute;
+            margin-left: 48%;
+            margin-top: 10%;
+            text-align: left;
+            color: white;
+            z-index: 3;
+        }
+    
+        .shades {
+            position: absolute;
+            background: linear-gradient(114.2deg, rgb(12, 12, 12) 18.6%, rgba(0, 0, 0, 0.194) 67.7%);
+            width: 100%;
+            height: 778px;
+            color: white;
+            z-index: 0;
+            display: none;
+        }
+    
+        .jbl-logo {
+            width: 450px;
+            height: 450px;
+            position: absolute;
+            z-index: 4;
+            margin-top: 15%;
+            margin-left: 45%;
+            filter: opacity(25%);
+            display: none;
+        }
+        .background-image{
+            display: none   ;
+        }
+}
